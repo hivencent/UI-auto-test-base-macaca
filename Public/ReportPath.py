@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class ReportPath:
     @classmethod
     def set_path(cls, ps):

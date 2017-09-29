@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from Public.BasePage import BasePage
 from Public.Decorator import teststep
 

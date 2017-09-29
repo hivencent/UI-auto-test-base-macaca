@@ -1,3 +1,4 @@
 .idea/
 TestReport/
 __pycache__/
+.pyc

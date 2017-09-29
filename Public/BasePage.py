@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import os
 import time
 
@@ -415,7 +417,7 @@ class BasePage(object):
             if i == times - 1:
                 return False
 
-    def wait_string_use_and(self, *args, timeout=10000, interval=1000):
+    def wait_string_use_and(self,timeout=10000, interval=1000, *args):
         """
         wait all strings between the gaven time
         :param args: strings
@@ -447,7 +449,7 @@ class BasePage(object):
             if i == times - 1:
                 return False
 
-    def wait_string_use_or(self, *args, timeout=10000, interval=1000):
+    def wait_string_use_or(self,timeout=10000, interval=1000, *args):
         """
         wait anyone string between the gaven time
         :param args: strings

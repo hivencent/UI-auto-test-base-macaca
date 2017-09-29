@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class LoginStatus:
     @classmethod
     def set_status(cls, status):

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from macaca import WebDriverException
 
 from Public.BasePage import BasePage
