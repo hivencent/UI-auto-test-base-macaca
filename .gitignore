@@ -1,4 +1,4 @@
 .idea/
 TestReport/
 __pycache__/
-.pyc
+*.pyc
